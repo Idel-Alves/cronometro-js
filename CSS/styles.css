@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 3.2rem;
+    padding-top: 4.8rem;
+    background-color: #F1F1F1;
+}
+
+.container h1 {
+    font-size: 3.5rem;
+    color: #175cff;
+}
+
+.timer {
+   display: flex;
+   font-size: 4.5rem;
+   font-weight: bold;
+   color: #333;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #172f68;
+    min-width: 9rem;
+}
+
+.separetor {
+    padding: 0 1rem;
+    color: #525763;
+}
+
+#milissegundos {
+    font-size: 2.5rem;
+    color: #525763;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    border: .1rem solid #CCC;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#iniciarBtn {
+    color: #FFF;
+    background-color: #175cff;
+}
+
+#pausarBtn, 
+#continuarBtn {
+    display: none;
+}
+
+@media (max-width: 320px) {
+    .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .timer {
+        font-size: 2rem;
+     }
+
+     .time {
+        min-width: 6rem;
+    }
+
+    .separetor {
+        padding: 0 .5rem;
+    }
+    
+    #milissegundos {
+        font-size: 1.5rem;
+    }
+}
