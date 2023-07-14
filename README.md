@@ -15,3 +15,4 @@
 <p>- Já com JavaScript, pude colocar em pratica meu conhecimento inicial: trabalhando com variáveis, funções, manipulação da Dom.</p>
 </div>
 <h2>Visualizar o projeto 💥</h2>
+ https://idel-alves.github.io/cronometro-js/
